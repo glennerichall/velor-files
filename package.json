@@ -1,0 +1,31 @@
+{
+  "name": "velor-files",
+  "version": "1.0.1",
+  "scripts": {
+    "test": "npx playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.48.1",
+    "chai": "^5.1.2",
+    "chai-as-promised": "^8.0.0",
+    "chai-exclude": "^3.0.0",
+    "dotenv": "^16.4.5",
+    "playwright": "^1.48.1",
+    "sinon": "^19.0.2",
+    "sinon-chai": "^4.0.0"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.682.0",
+    "@aws-sdk/s3-request-presigner": "^3.682.0",
+    "bull": "^4.16.3",
+    "ioredis": "^5.4.1",
+    "velor-services": "github:glennerichall/velor-services",
+    "velor-database": "github:glennerichall/velor-database",
+    "velor-utils": "github:glennerichall/velor-utils",
+    "winston": "^3.15.0"
+  }
+}
